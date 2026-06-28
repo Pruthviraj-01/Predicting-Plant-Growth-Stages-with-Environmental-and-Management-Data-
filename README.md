@@ -1,10 +1,6 @@
 # Predicting-Plant-Growth-Stages-with-Environmental-and-Management-Data-Project Overview
 This project focuses on using Power BI to analyse environmental and management data, such as temperature, humidity, irrigation, and fertilization schedules, to predict plant growth stages. The goal is to provide actionable insights that optimize resource use, improve decision-making, and enhance crop productivity, supporting sustainable farming practices.
 
-# Predicting Plant Growth Stages with Environmental and Management Data
-
-An end-to-end data analytics and predictive modeling project that leverages Power BI to visualize historical plant growth patterns and predict future growth milestones based on key environmental and management metrics.
-
 ## 📌 Project Overview
 * **Project Name:** Predicting Plant Growth Stages with Environmental and Management Data Using Power BI
 * **Team ID:** PNT2025TMID02609
