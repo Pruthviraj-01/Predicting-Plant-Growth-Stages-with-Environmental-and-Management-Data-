@@ -15,38 +15,16 @@ This project splits data analysis into two core segments: analyzing **Historical
 The Power BI dashboard is structured into two main analytical reports to isolate historical ground truths from predictive modeling outputs.
 
 ### 1. Historical Plant Growth Data Report
-This view focuses on baseline observations to identify physical factors impacting plant maturation.
-* **KPI Cards:** Display key macro-metrics including *Total Plants Observed*, *Average Growth Milestone*, and *Average Water Frequency*.
-* **Line Chart:** Displays *Sunlight Hours vs. Average Growth Milestone* to show linear or non-linear effects of solar exposure.
-* **Pie Chart:** Breaks down *Fertilizer Type Usage Percentage* to understand historical treatment distributions.
-* **Clustered Column Chart:** Compares *Fertilizer Type vs. Average Growth Milestone* to highlight which products drive higher yield.
-* **Stacked Bar Chart:** Illustrates *Growth Milestone Distribution across Soil Types* to contrast optimal vs. poor medium choices.
+<img width="635" height="340" alt="image" src="https://github.com/user-attachments/assets/861a9588-e96f-4c45-a66d-396fdb148c21" />
 
-### 2. Predicted Plant Growth Data Report
-This view displays predictive insights driven by an integrated machine learning model.
-* **KPI Cards:** Showcases *Total Plants Predicted*, *Average Growth Milestone*, and *Model Accuracy (64%)*.
-* **Clustered Column Chart:** Visualizes *Actual vs. Predicted Growth Milestone* to showcase how closely model outputs mirror historical reality.
-* **Bar Chart:** Evaluates *Fertilizer Type vs. Predicted Growth Milestone*.
-* **Pie / Donut Chart:** Shows *Soil Type Distribution* across the predicted dataset.
-* **Line Chart:** Tracks *Sunlight Hours vs. Predicted Growth Milestone*.
+### 2. Predicted Plant Growth Data 
+<img width="634" height="340" alt="image" src="https://github.com/user-attachments/assets/78567621-a5a2-4a1a-af24-305fb9b98a28" />
 
----
+### 3. Historic Data Report
+<img width="635" height="341" alt="image" src="https://github.com/user-attachments/assets/16e886be-051e-4693-b34e-cb44324e0a2d" />
 
-## 💡 Key Insights & Findings
-
-### Historical Insights
-* **Soil & Growth Mediums:** Loamy and Sandy Loam soils consistently result in superior plant growth.
-* **Humidity Levels:** Plants thrive best within a controlled humidity range between **50% and 70%**.
-* **Temperature Multipliers:** Growth milestones improve significantly when surrounding temperatures are maintained between **22°C and 28°C**.
-* **Water Management:** Optimal growth is achieved through a standard watering frequency of every **2–3 days**.
-* **Fertilizer Efficacy:** Treatments using **Fertilizer B and C** yield a measurably positive impact on growth metrics compared to Fertilizer A.
-
-### Predictive Insights
-* **Model Baseline:** The current predictive model functions at an accuracy rate of **64%**, providing a moderately reliable baseline for automated agricultural forecasting.
-* **Irrigation & Sun:** Predictive simulations suggest that transitioning to daily watering paired with higher sunlight hours maximizes future growth milestones.
-* **Fertilizer Types:** The model heavily favors **Organic Fertilizers** over chemical alternatives, projecting higher predicted growth yields.
-* **Clay Soil Performance:** While clay soil historically performs moderately, the model predicts strong growth performance in clay environments *if* humidity remains strictly optimized.
-* **Microclimate Optimization:** Plants subjected to **6 or more sunlight hours** coupled with strict temperature boundaries of **20–25°C** yield the highest predicted growth curves.
+### 4. Predicted Plant Growth Data Report 
+<img width="635" height="340" alt="image" src="https://github.com/user-attachments/assets/ca041d0e-3ace-4efc-b642-db5d67bd870b" />
 
 ---
 
