@@ -62,6 +62,42 @@ This view displays predictive insights driven by an integrated machine learning 
    
 ---
 
+## 📊 Dashboard Architecture & Visualizations
+
+The Power BI dashboard is structured into two main analytical reports to isolate historical ground truths from predictive modeling outputs.
+
+### 1. Historical Plant Growth Data Report
+This view focuses on baseline observations to identify physical factors impacting plant maturation.
+
+![Historical Plant Growth Overview](image_074917.jpg)
+
+* **KPI Cards:** Display key macro-metrics including *Total Plants Observed*, *Average Growth Milestone*, and *Average Water Frequency*.
+* **Line Chart:** Displays *Sunlight Hours vs. Average Growth Milestone* to show linear or non-linear effects of solar exposure.
+* **Pie Chart:** Breaks down *Fertilizer Type Usage Percentage* to understand historical treatment distributions.
+* **Clustered Column Chart:** Compares *Fertilizer Type vs. Average Growth Milestone* to highlight which products drive higher yield.
+* **Stacked Bar Chart:** Illustrates *Growth Milestone Distribution across Soil Types* to contrast optimal vs. poor medium choices.
+
+#### 🔍 Deep Dive: Historical Workspace View
+![Historical Dashboard Workspace](image_074444.jpg)
+
+---
+
+### 2. Predicted Plant Growth Data Report
+This view displays predictive insights driven by an integrated machine learning model.
+
+![Predicted Plant Growth Overview](image_074840.png)
+
+* **KPI Cards:** Showcases *Total Plants Predicted*, *Average Growth Milestone*, and *Model Accuracy (64%)*.
+* **Clustered Column Chart:** Visualizes *Actual vs. Predicted Growth Milestone* to showcase how closely model outputs mirror historical reality.
+* **Bar Chart:** Evaluates *Fertilizer Type vs. Predicted Growth Milestone*.
+* **Pie / Donut Chart:** Shows *Soil Type Distribution* across the predicted dataset.
+* **Line Chart:** Tracks *Sunlight Hours vs. Predicted Growth Milestone*.
+
+#### 🔍 Deep Dive: Prediction Model Workspace View
+![Predicted Dashboard Workspace](image_0744df.png)
+
+---
+
 ## 📊 Key Takeaways
 
 * The Ideal Growth Blueprint: Historical analysis clearly establishes that a microclimate featuring Loamy/Sandy Loam soil, temperatures between 22°C–28°C, humidity levels between 50%–70%, and a 2–3 day watering frequency yields the most robust plant growth.
